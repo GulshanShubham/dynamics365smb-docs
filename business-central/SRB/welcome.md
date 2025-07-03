@@ -44,9 +44,9 @@ A service object is something that the customer either buys, such as items, or f
 
 A service object doesn't contain any billing-relevant information. That information belongs to the associated service commitments. Service commitments that aren't invoiced through a contract can also belong to a service object, for example, warranties.
 
-### Service commitments​
+### Subscription
 
-Service commitments describe the content of agreements with customers and suppliers. They exist in customer-side and vendor-side forms, and always belong to a service object. Service commitments contain billing information, such as the quantity to bill, the billing period, and the amount.
+Subscription describe the content of agreements with customers and suppliers. They exist in customer-side and vendor-side forms, and always belong to a service object. Service commitments contain billing information, such as the quantity to bill, the billing period, and the amount.
 
 The service commitments of a service object and the creation of service commitments are defined through a multi-level hierarchy. It includes service commitment templates and service commitment packages that you can assign to items. Service objects are created through the sale of these items, to which the associated service commitments are assigned and available.
 
